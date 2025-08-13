@@ -10,7 +10,7 @@ from CodeGame.Cost import WIN_WIDTH, COLOR_ORANGE, MENU_OPTION, COLOR_WHITE
 class Menu:
     def __init__(self, window):
         self.window = window
-        self.surf = pygame.image.load('./asset/MenuBG.png')
+        self.surf = pygame.image.load('./asset/MenuBg.png')
         self.rect = self.surf.get_rect(left=0, top=0)
 
     def run(self, ):
